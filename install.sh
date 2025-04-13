@@ -8,6 +8,6 @@ git clone https://github.com/chenwumm/cwchcls/
 echo "3.部署成功，完成必要配置:"
 cd cwchcls
 rm install.sh
-echo "alias 晨雾换装='cd cwchcls;bash 3c.sh'"
+echo "alias 晨雾换装='cd cwchcls;bash 3c.sh'" >> .bashrc
 cd ..
-echo "安装完成"
+echo "安装完成，如果想进入请输入\"晨雾换装\""
